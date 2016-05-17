@@ -1,0 +1,174 @@
+
+
+
+nav {
+    width: 966PX;
+    display:flex;
+    
+    height: 59px;
+    justify-content: center;
+}
+.container
+{
+    width: 968px;
+    margin: 0 auto;
+}
+
+
+
+#nota-principal
+{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+}
+
+
+
+#publicidad
+{
+    height: 1120px;
+    color:red
+    
+    float: right;
+    background-color: yellow;
+}
+
+#pie
+{
+    height: 390px;
+    clear: both;
+    background-color: blue;
+}
+
+#notas-secundarias {
+    width: 700px;
+    float: left;
+    display: inline;
+    background-color: rebeccapurple;
+    height: 1120px;
+}
+li {
+    display: inline-block;
+background-color: darkgray;
+    padding: 10px;
+    
+}
+
+
+
+
+#imagen {
+    width: 395;
+    height: 484;
+}
+
+#barra-navegacion{
+    height: 50px;
+    display: flex;
+    justify-content: center
+}
+#barra-navegacion li{
+    display: online.block;
+    padding: 0px;
+
+}
+
+#barra-navegacion ul ul{
+   display: none;
+    
+    
+}
+
+#barra-navegacion a{
+    color: black;
+    text-decoration: none;
+    background-color: darkgray;
+    padding: 10px 20px;
+    transition: 0.5s;
+    
+}
+    
+#barra-navegacion ul{
+    padding: 0;
+    
+}
+#barra-navegacion >ul>li>a:hover{
+    background-color:blue;
+    
+}
+
+#encabezado
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 210px;
+ 
+}
+
+#encabezados #titulos{
+    padding: 0px;
+    margin: 0px;
+   
+}
+ #encabezado #logo{
+    background: url('../img/logo_sep.png') no-repeat 0px 0px;
+    float: left;
+    width: 295px;
+    height: 140px;
+   
+}
+header {
+    padding: 0px;
+    width: 966px;
+  margin: 0px;
+  background: white;
+   
+}
+#encabezado
+{
+    height: 160px;
+    display: flex;
+    justify-content: space-between
+}
+
+#encabezado figure, #titulos
+{
+    margin: 0;
+}
+header h1,h2,h3,h4,h5{
+    padding: 0px;
+    margin: 0px;
+}
+#frm-busqueda input {
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    box-shadow: inset 1px 1px 0 #eeeeee;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 28px 0 10px;
+    /* width: 200px; */
+}
+#frm-busqueda button {
+    position: absolute;
+    top: 60%;
+    right: 5px;
+    margin-top: -12px;
+    background: transparent;
+    background-image: url('../img/busqueda.png');
+    background-repeat: no-repeat;
+    display: block;
+    height: 25px;
+    width: 25px;
+    text-indent: -9999px;
+    border: 0;
+    cursor: pointer;
+}
+#frm-busqueda {
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    box-shadow: 1px 0 0 #f8f8f8;
+    padding: 5px 5px 3px 5px;
+    position: relative;
+}
